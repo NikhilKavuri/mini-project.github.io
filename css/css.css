@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+  }
+  .header {
+    background-color: #7286D3;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .active {
+    float: left;
+    color: #f2f2f2;
+    position: relative;
+    left: 40%;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .news {
+    float: left;
+    color: #f2f2f2;
+    position: relative;
+    left: 40%;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .about {
+    float: left;
+    margin-left: 30%;
+    color: #f2f2f2;
+    position: relative;
+    left: 10%;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .header a:hover {
+    background-color: #abbbf9;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .header a.active {
+    background-color: #c0ccff;
+    color: white;
+  }
+  .box {
+    position: relative;
+    width: 1130px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 20px;
+  }
+  .bmw {
+    width: 13cm;
+    height: 9cm;
+    margin: 10px auto;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    left: 200px;
+  }
+  .bmw-info {
+    text-align: center;
+    margin: 0;
+  }
+  
