@@ -1,11 +1,15 @@
 body {
     margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .header {
     background-color: #7286D3;
+    width: auto;
+    height: auto;
+    position: relative;
     overflow: hidden;
     backdrop-filter: blur(10px);
-    text-align: center;
     font-family: 'Kalam', cursive;
     font-size: 20px;
   }
@@ -50,26 +54,43 @@ body {
   }
   .box {
     position: relative;
-    width: 1130px;
-    height: fit-content;
+    left: 90px;
+    right: 20px;
+    width: 1150px;;
+    height:auto;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    padding-top: 0;
+    margin: 50px;
+    margin-top: 20px;
   }
+  .bmw-info {
+    margin: 0;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 550px;
+    bottom: 350px;
+  }
+  
   .bmw {
     width: 13cm;
     height: 9cm;
-    margin: 10px auto;
+    margin: 20px;
+    padding: 10px;
   }
   h1 {
     font-family: 'Playfair Display', serif;
-    text-align: center;
     margin: 0;
     position: relative;
-    left: 200px;
+    left: 550px;
+    bottom: 350px;
   }
-  .bmw-info {
-    text-align: center;
-    margin: 0;
-  }
-  
+.xuv{
+  width: 50%;
+  height: 20%;
+  position: relative;
+  left: 530px;
+  bottom: 220px;
+  padding: 15px;
+}
