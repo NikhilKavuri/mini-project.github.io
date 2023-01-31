@@ -68,8 +68,8 @@ body {
 .bmw-info {
   margin: 0;
   position: relative;
-  left: 410px;
-  bottom: 410px;
+  left: 440px;
+  bottom: 425px;
   background-color: #c0ccff;
   display: inline-flex;
   padding: 10px;
@@ -84,30 +84,28 @@ h1 {
   bottom: 200px;
 }
 .bmw {
-  width: 300px;
-  height: 200px;
+  width: 340px;
+  height: 220px;
   display: inline-block;
   position: relative;
-  top: 10px;
+  top: 30px;
   left: 30px ;
   margin: 20px;
   padding: 10px;
 }
 .xuv {
   width: 400px;
-  height: 200px;
+  height: 270px;
   display: inline-block;
   position: relative;
-  left: 80px;
-  bottom: 0px;
-  padding: 20px;
-  margin-top: 10px;
+  left: 100px;
+  bottom: -40px;
 }
 .xuv-title {
   display: inline-block;
   width: 1000px;
   position: relative;
-  right: 1000px;
+  left: 29px;
   bottom: 380px;
 }
 .xuv-info {
@@ -217,7 +215,7 @@ h1 {
   width: auto;
   height: auto;
   position: relative;
-  bottom: -150px;
+  bottom: -170px;
   overflow: hidden;
   backdrop-filter: blur(10px);
   font-family: 'Kalam', cursive;
